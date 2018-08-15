@@ -10,4 +10,7 @@ class App < Sinatra::Base
     puts "Gimme a number"
     gets.chomp.to_i.to_s
   end
+  
+  get '/say/:number/:phrase'
+    puts ""
 end
