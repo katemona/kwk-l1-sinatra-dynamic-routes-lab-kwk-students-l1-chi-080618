@@ -7,5 +7,5 @@ class App < Sinatra::Base
   end
   
   get '/square/:number'
-  
+    puts ""
 end
