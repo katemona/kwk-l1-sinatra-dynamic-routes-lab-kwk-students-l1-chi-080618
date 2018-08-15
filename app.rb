@@ -5,4 +5,7 @@ class App < Sinatra::Base
     puts "What's your name?"
     gets.chomp.reverse
   end
+  
+  get '/square/:number'
+  
 end
