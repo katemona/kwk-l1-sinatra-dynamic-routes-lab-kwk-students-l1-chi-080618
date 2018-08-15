@@ -8,5 +8,5 @@ class App < Sinatra::Base
   
   get '/square/:number'
     puts "Gimme a number"
-    
+    gets.chomp.to_i 
 end
